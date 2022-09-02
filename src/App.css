@@ -1,41 +1,187 @@
-#root {
-  max-width: 1280px;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --white-f5: #F5F5F5;
+  --blue-2b: #2B283A;
+  --orange: #F47D27;
+  --navy: #4A4E74;
+  --navy-dark: #374151;
+  --white-d5: #D5D4D8;
+  --gray: #918E9B;
+  --white: #FFFFFF;
+  --white-D1: #D1D5DB;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
+
+main, footer{
+  width: 100%;
+}
+
+main {
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.profile--img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  order: -1;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
+.container {
+  background-color: var(--white-f5);
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
+.profile {
+  text-align: center;
+}
+
+.profile--name {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.profile--title {
+  color: var(--orange);
+  font-size: 1.2rem;
+  margin: .5em 0 0 0;
+  font-weight: 300;
+}
+
+.profile--name,
+.description h3 {
+  font-weight: 700;
+  color: var(--blue-2b);
+}
+
+.profile--url {
+  margin: .3em 0;
+}
+
+.small {
+  color: var(--navy);
+  font-size: .8rem;
+}
+
+.small:focus,
+.small:hover {
+  border-bottom: 1px solid var(--orange);
+  color: var(--navy-dark);
+  width: auto;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  font-size: 1.1rem;
+  margin: 1.2em 0 2em 0;
+}
+
+.email,
+.linkedin {
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.email span,
+.linkedin span {
+  padding-left: .7em;
+}
+
+.email {
+  padding: .5em 2em;
+  color: var(--navy-dark);
+  border: 1px solid var(--white-D1);
+  margin-right: 1em;
+  background-color: var(--white);
+}
+
+.email:hover, .email:focus {
+  color: var(--white);
+  background-color: var(--orange);
+}
+
+.linkedin {
+  padding: .5em 1em;
+  color: var(--white);
+  background: #297FE5;
+  border: 1px solid #297FE5;
+}
+
+.linkedin:hover, .linkedin:focus {
+  color: var(--white);
+  background-color: var(--orange);
+  border: 1px solid var(--orange);
+}
+
+.email, .email:focus, .email:hover{
+  transition: background-color 1s ease,
+  color .5s ease;
+}
+
+.linkedin, .linkedin:focus, .linkedin:hover{
+  transition: background-color 1s ease,
+    border 1s ease;
+}
+
+.description {
+  color: var(--navy);
+}
+
+.description h3 {
+  margin-top: 0;
+  margin-bottom: .5em;
+}
+
+.description p {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+footer {
+  background-color: var(--white-d5);
+  padding: 1.5em;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+  margin: 0 auto;
+}
+
+footer path {
+  fill: var(--white-d5);
+}
+
+.social--media {
+  background-color: var(--gray);
+  padding: .4em .3em .4em .3em;
+  border-radius: 7px;
+  margin: 0 .5em;
+  cursor: pointer;
+}
+
+@media (min-width: 700px){
+  main, footer{
+    width: 70%;
+  }
+}
+
+@media (min-width: 900px){
+  main, footer{
+    width: 37%;
+  }
+  #root > div{
+    padding: 1em 0;
+  }
 }
