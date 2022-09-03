@@ -33,7 +33,7 @@ main {
   flex-direction: column;
 }
 
-.profile--img {
+.main--img {
   width: 100%;
   object-fit: cover;
   border-radius: 10px 10px 0 0;
@@ -112,6 +112,7 @@ main {
 .email:hover, .email:focus {
   color: var(--white);
   background-color: var(--orange);
+  border: 1px solid var(--orange);
 }
 
 .linkedin {
@@ -128,13 +129,14 @@ main {
 }
 
 .email, .email:focus, .email:hover{
-  transition: background-color 1s ease,
-  color .5s ease;
+  transition: background-color .5s ease,
+   color .5s ease,
+   border .5s ease;
 }
 
 .linkedin, .linkedin:focus, .linkedin:hover{
-  transition: background-color 1s ease,
-    border 1s ease;
+  transition: background-color .5s ease,
+    border .5s ease;
 }
 
 .description {

@@ -18,11 +18,11 @@ export default function Main() {
                 <div className="profile">
                     <h1 className="profile--name">Cici Marisa Hardianti</h1>
                     <h2 className="profile--title">Frontend Developer</h2>
-                    <p className="profile--url"><a target="_blank" href="https://www.freecodecamp.org/cicimarisahardianti" className="small">cicimarisahardianti.website</a></p>
+                    <p className="profile--url"><a target="_blank" href="https://www.freecodecamp.org/cicimarisahardianti" className="small">https://www.freecodecamp.org/cicimarisahardianti</a></p>
                 </div>
 
                 <div className="actions">
-                    <a href="mailto: cicimarisahardianti@gmail.com" className="email" target="_blank"><FontAwesomeIcon icon={faEnvelope} /><span>Email</span></a>
+                    <a href="mailto:cicimarisahardianti@gmail.com" className="email" target="_blank"><FontAwesomeIcon icon={faEnvelope} /><span>Email</span></a>
                     <a href="https://www.linkedin.com/in/cici-marisa-hardianti-541727106/" className="linkedin" target="_blank"> <FontAwesomeIcon icon={faLinkedin} /><span>LinkedIn</span></a>
                 </div>
 
@@ -34,7 +34,7 @@ export default function Main() {
                     <p>Finding good restaurant. Good Reader. Keeping things simple and clean fanatic.</p>
                 </div>
             </div>
-            <img src={image} alt="" className="profile--img" width="100%" height="auto"/>
+            <img src={image} alt="" className="main--img" width="100%" height="auto"/>
         </main>
     )
 }
