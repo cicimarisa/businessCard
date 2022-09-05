@@ -18,7 +18,7 @@ export default function Main() {
                 <div className="profile">
                     <h1 className="profile--name">Cici Marisa Hardianti</h1>
                     <h2 className="profile--title">Frontend Developer</h2>
-                    <p className="profile--url"><a target="_blank" href="https://www.freecodecamp.org/cicimarisahardianti" className="small">https://www.freecodecamp.org/cicimarisahardianti</a></p>
+                    <p className="profile--url"><a target="_blank" href="https://www.freecodecamp.org/cicimarisahardianti" className="small">FreeCodeCamp profile</a></p>
                 </div>
 
                 <div className="actions">
