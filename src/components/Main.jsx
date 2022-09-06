@@ -1,4 +1,4 @@
-import image from "./../assets/linkedin-profile.png"
+import image from "./../assets/linkedin-profile.webp"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import {
