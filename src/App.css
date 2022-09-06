@@ -86,7 +86,6 @@ main {
 .actions {
   display: flex;
   justify-content: center;
-  font-size: 1.1rem;
   margin: 1.2em 0 2em 0;
 }
 
@@ -171,6 +170,12 @@ footer path {
   border-radius: 7px;
   margin: 0 .5em;
   cursor: pointer;
+}
+
+@media (min-width: 400px){
+  .actions {
+    font-size: 1.1rem;
+  }
 }
 
 @media (min-width: 700px){
