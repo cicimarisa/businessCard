@@ -34,7 +34,7 @@ export default function Main() {
                     <p>Finding good restaurant. Good Reader. Keeping things simple and clean fanatic.</p>
                 </div>
             </div>
-            <img src={image} alt="" className="main--img" width="400px" height="200px"/>
+            <img src={image} alt="" className="main--img" width="0px" height="0px"/>
         </main>
     )
 }
