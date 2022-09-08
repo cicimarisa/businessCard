@@ -28,7 +28,7 @@ export default function Main() {
 
                 <div className="description">
                     <h3>About Me</h3>
-                    <p>I am a frontend developer who have been in IT industry for a couple of years and worked in variety of technologies in various roles. I've done Singapore projects for Government as well as private sector. For the past few years I've been working as freelancer remotely.
+                    <p>I am a frontend developer who have been in IT industry for a couple of years and worked in variety of technologies in various roles. I've done Singapore projects for Government as well as private sector.
 
                         <br /><br />It is always my passion for my work that has taken me to where I am now. I am a sincere, honest, responsible, and creative person with an excellent attitude towards my work.
                     </p>
