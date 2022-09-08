@@ -29,7 +29,7 @@ export default function Main() {
                 <div className="description">
                     <h3>About Me</h3>
                     <p>I am frontend developer who have been in IT industry for around 5 years and worked in variety of technologies.
-                        <br />I've been front end developer, UI developer, Tester, and others. I've done Singapore projects for Government as well as private sector.
+                        <br />I've been frontend developer, UI developer, Tester, and others. I've done Singapore projects for Government as well as private sector.
 
                         <br /><br />For the past few years I've been working as freelancer remotely.
 
