@@ -33,7 +33,7 @@ export default function Main() {
                         <br /><br />It is always my passion for my work that has taken me to where I am now. I am a sincere, honest, responsible, and creative person with an excellent attitude towards my work.
                     </p>
                     <h3>Interest</h3>
-                    <p>I love to learn new things especially new technologies. I enjoy swimming, traveling, and photography. An open minded person that likes spicy food.</p>
+                    <p>I love to learn new things especially new technologies. I enjoy swimming, traveling, and photography. A simple person that likes spicy food.</p>
                 </div>
             </div>
             <img src={image} alt="" className="main--img" width="0px" height="0px" />
