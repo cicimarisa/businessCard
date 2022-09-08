@@ -28,7 +28,7 @@ export default function Main() {
 
                 <div className="description">
                     <h3>About Me</h3>
-                    <p>I am frontend developer who have been in IT industry for around 5 years and worked in variety of technologies.
+                    <p>I am a frontend developer who have been in IT industry for around 5 years and worked in variety of technologies.
                         <br />I've been frontend developer, UI developer, Tester, and others. I've done Singapore projects for Government as well as private sector.
 
                         <br /><br />For the past few years I've been working as freelancer remotely.
@@ -36,11 +36,9 @@ export default function Main() {
                         <br /><br />It is always my passion for my work that has taken me to where I am now. I am a sincere, honest, responsible, and creative person with an excellent attitude towards my work.
 
                         <br /><br />I love to learn new things especially new technologies.
-
-                        <br /><br />I enjoy swimming, traveling, and photography. An open minded person that likes spicy food.
                     </p>
                     <h3>Interest</h3>
-                    <p>Finding good restaurant. Good Reader. Keeping things simple and clean fanatic.</p>
+                    <p>I enjoy swimming, traveling, and photography. An open minded person that likes spicy food.</p>
                 </div>
             </div>
             <img src={image} alt="" className="main--img" width="0px" height="0px" />
